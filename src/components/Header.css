@@ -1,0 +1,8 @@
+.header {
+  background-color: #1a252f; /* Darker background color */
+  color: #ecf0f1; /* Light text color */
+  padding: 10px;
+  text-align: center;
+  font-weight: 200;
+  font-size: 20px;
+}
