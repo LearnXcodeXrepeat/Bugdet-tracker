@@ -3,7 +3,7 @@
   justify-content: space-around;
   padding: 20px;
   margin: 0 auto;
-  max-width: 900px;
+  max-width: 100vw;
 }
 
 .budget-card {
