@@ -1,6 +1,10 @@
-import { createStore } from 'redux';
-import rootReducer from './reducers';
+import { configureStore } from '@reduxjs/toolkit';
+import budgetAndExpenseReducer from './BudgetAndExpenseSlice';
 
-const store = createStore(rootReducer);
+const store = configureStore({
+    reducer: {
+        budget: budgetAndExpenseReducer
+    }
+});
 
 export default store;
