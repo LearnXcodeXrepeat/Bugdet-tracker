@@ -1,3 +1,4 @@
+// import React from 'react';
 import './App.css';
 import Header from './components/Header';
 import BudgetOverview from './components/BudgetOverview';
