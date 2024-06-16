@@ -12,10 +12,6 @@
   color: #ecf0f1; /* Light text color */
 }
 
-.form-control {
-  margin-bottom: 15px;
-}
-
 .form-control label {
   display: block;
   margin-bottom: 5px;
@@ -23,6 +19,9 @@
   font-weight: 300;
 }
 
+.form-control {
+  margin-bottom: 15px;
+}
 .form-control input {
   width: 100%;
   padding: 10px;
